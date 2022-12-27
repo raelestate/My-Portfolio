@@ -5,6 +5,7 @@ body{
     background-color: #023047;
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
 }
 
 .intro{
