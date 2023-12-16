@@ -1,0 +1,74 @@
+/* *{
+    border: solid 1px red;
+} */
+
+:root {
+    --bs-custom-white-rgb: rgb(223, 222, 245);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("font/Poppins/Poppins-Regular.ttf") format("truetype"),
+        url("font/Poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    font-family: "Poppins";
+    background-color: #060606 !important;
+    color: #fff;
+}
+
+.text-custom-white,
+a {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-custom-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.hamburger-icon {
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#hover-nav:hover{
+    font-weight: bold;
+    background: linear-gradient(to left,
+            #22d4ae 10%,
+            #5238e7 30%,
+            #50c5f7 70%,
+            #6613d3 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-emphasis-color: transparent;
+    background-size: 1000% auto;
+    animation: gradient-animate 5s ease-in-out infinite alternate-reverse;
+    font-family: "Poppins";
+}
+
+#rael {
+    font-weight: bold;
+    background: linear-gradient(to left,
+            #22d4ae 10%,
+            #5238e7 30%,
+            #50c5f7 70%,
+            #6613d3 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-emphasis-color: transparent;
+    background-size: 1000% auto;
+    animation: gradient-animate 7s infinite alternate-reverse;
+    font-family: "Poppins";
+}
+
+@keyframes gradient-animate {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 100% 0%;
+    }
+}

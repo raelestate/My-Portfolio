@@ -3,103 +3,47 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RaelEstate</title>
-  <!--BOOTSTRAP VENDOR CSS-->
-  <link href="./vendor/css/bootstrap.min.css" rel="stylesheet">
-
-  <link href="./resources/css/styles.css" rel="stylesheet">
-  <link href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <title>Welcome</title>
 </head>
 
-<body>
-  <ul class="nav justify-content-center py-4" style="text-decoration: none; font-size: 15px;">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="./contact.html">Contact Me</a>
-    </li>
-  </ul>
-  <div class="container">
-    <div class="row">
-      <div class="col d-flex justify-content-center">
-        <a href="#" style="text-decoration: none;">
-          <div class="card shadow-lg bg-transparent border-0" style="width: 300px;">
-            <img src="./resources/img/FORMALATTIRE.jpg" class="card-img-top rounded-top-4" alt="My Self-portrait">
-            <div class="card-body text-center">
-              <h5 class="card-title" style="color:#C3C0C0">Hello, I'm Rael</h5>
-              <div class="typewriter">
-                <p class="card-text">
-                <h6>
-                  <a href="" class="typewrite" style="text-decoration: none; color:rgb(232, 236, 239)" data-period="2000"
-                    data-type='[ "UI/UX Designer", 
-                    "Concept Artist", 
-                    "Front-end Developer", 
-                    "Photographer" ]'>
-                    <span class="wrap"></span>
-                  </a>
-                </h6>
-                </p>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-1">
-                  <a href="https://github.com/raelestate" title="Github"><i class="bi bi-github" style="color:#C0C0C0"></i></a>
-                </div>
-                <div class="col-1">
-                  <a href="./contact.html" title="Email Me :>"><i class="bi bi-google" style="color:#C0C0C0"></i></a>
-                </div>
-                <div class="col-1">
-                  <a href="https://www.linkedin.com/in/rhyllneri/" title="LinkedIn"><i class="bi bi-linkedin" style="color:#C0C0C0"></i></a>
-                </div>
-                <div class="col-1">
-                  <a href="https://twitter.com/raineridesu" title="Twitter"><i class="bi bi-twitter" style="color:#C0C0C0"></i></a>
-                  
-                </div>
-                <p><small style="color:white">Website not yet fully developed. 30% WIP</small></p>
-              </div>
-            </div>
-          </div>
-        </a>
+<body class="w-100">
+    <nav class="navbar navbar-expand-lg bg-transparent p-2 pt-3">
+      <div class="container-fluid">
+        <a id="hover-nav" class="navbar-brand" href="#">RaelEstate</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list" style="color:aliceblue"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a id="hover-nav" class="nav-link active" aria-current="page" href="#">Depositories</a>
+            </li>
+            <li class="nav-item">
+              <a id="hover-nav" class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+
+
+  <div class="container p-5">
+    <div class="container d-flex justify-content-center">
+      <h1 class="display-4">Hi, I'm</h1>
     </div>
-    <div class="row d-flex justify-content-center pt-5">
-      <div class="col-sm-3">
-        <a href="photograph.html" style="text-decoration: none;">
-          <div class="card text-center bg-transparent shadow-lg border-0" style="color:#C3C0C0">
-            <img class="card-img opacity-75" src="./resources/img/eye.jpg" alt="Card image">
-              <div class="card-img-overlay">
-                <h5 class="card-text" style="color:#ffffff">My Photographs</h5>
-            </div>
-          </div>
-        </a>
-      </div>
+    <div class="container d-flex justify-content-center">
+      <h1 id="rael" class="display-1">RaelEstate</h1>
     </div>
-  </div>
 
   </div>
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        </a>
-        <span>&copy; 2023 RaelEstate</span>
-      </div>
 
-    </footer>
-  </div>
-
-
-
-
-  <!--BOOTSTRAP VENDOR JAVASCRIPT-->
-  <script src="./vendor/js/bootstrap.min.js"></script>
-  <!--CUSTOM JS-->
-  <script src="./resources/js/script.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
