@@ -15,9 +15,11 @@
 }
 
 body {
+    overscroll-behavior-y: none;
     font-family: "Poppins";
     background-color: #060606 !important;
     color: #fff;
+    scroll-behavior: smooth;
 }
 
 .text-custom-white,
@@ -72,3 +74,13 @@ a {
         background-position: 100% 0%;
     }
 }
+
+.fade-up {
+    opacity: 1;
+    animation: fadeInUp 2s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }

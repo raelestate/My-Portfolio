@@ -11,37 +11,68 @@
 </head>
 
 <body class="w-100">
-    <nav class="navbar navbar-expand-lg bg-transparent p-2 pt-3">
-      <div class="container-fluid">
-        <a id="hover-nav" class="navbar-brand" href="#">RaelEstate</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="bi bi-list" style="color:aliceblue"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-            <li class="nav-item">
-              <a id="hover-nav" class="nav-link active" aria-current="page" href="#">Depositories</a>
-            </li>
-            <li class="nav-item">
-              <a id="hover-nav" class="nav-link" href="#">About</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-transparent p-2 pt-3">
+    <div class="container-fluid">
+      <a id="hover-nav" class="navbar-brand" href="#">RaelEstate</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list" style="color:aliceblue"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a id="hover-nav" class="nav-link active" aria-current="page" href="#">Wall</a>
+          </li>
+          <li class="nav-item">
+            <a id="hover-nav" class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
 
-  <div class="container p-5">
+  <div class="container-fluid p-5 fade-up">
     <div class="container d-flex justify-content-center">
-      <h1 class="display-4">Hi, I'm</h1>
+      <h1 class="display-4">
+        Hi, I'm
+      </h1>
     </div>
     <div class="container d-flex justify-content-center">
       <h1 id="rael" class="display-1">RaelEstate</h1>
     </div>
-
+    <br id="br">
   </div>
 
+  <!---ABOUT-->
+  <section id="about">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col">
+          <div class="container d-flex justify-content-start">
+            <h6 class="display-6">Uncage Your Inner Vision: <br>Step Inside My Pocket Portfolio!</h6>
+          </div>
+        </div>
+        <div class="col-lg-10">
+          <div class="container">
+              <div class="row g-2">
+                <div class="col-6">
+                  <div class="card bg-transparent">
+                    <img src="sources/photos/1.png" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-custom-white">Concept Arts</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+  </section>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
 </body>
